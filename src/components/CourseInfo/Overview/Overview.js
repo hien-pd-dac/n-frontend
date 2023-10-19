@@ -1,12 +1,11 @@
-import Grid from "@material-ui/core/Grid";
-import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import Grid from "@mui/material/Grid";
 import "./Overview.css";
 
 const Overview = () => {
   return (
     <div id="overview-tab">
       <Grid container justifyContent="center">
-        <Grid item xl={9}>
+        <Grid item xs={9}>
           <div className="course-overview--heading">
             <div className="font-heading">About this course</div>
             <p>Learn to use Angular 2, 4, 5 and beyond!</p>
@@ -14,10 +13,10 @@ const Overview = () => {
           {/* Category sampple: i.e "By the numbers" */}
           <div className="course-overview--grid-row">
             <Grid container>
-              <Grid item sm={3}>
+              <Grid item xs={3}>
                 <div className="category-name">By the numbers</div>
               </Grid>
-              <Grid item sm={7}>
+              <Grid item xs={7}>
                 <div className="category-info">
                   <div>Skill level: All Levels</div>
                   <div>Student: 53045</div>
@@ -33,10 +32,10 @@ const Overview = () => {
 
           <div className="course-overview--grid-row">
             <Grid container>
-              <Grid item sm={3}>
+              <Grid item xs={3}>
                 <div className="category-name">Description</div>
               </Grid>
-              <Grid item sm={7}>
+              <Grid item xs={7}>
                 <div className="category-info">
                   <p>
                     There are two main Angular versions 1 or AngularJs and 2.
@@ -82,16 +81,20 @@ const Overview = () => {
 
           <div className="course-overview--grid-row">
             <Grid container>
-              <Grid item sm={3}>
+              <Grid item xs={3}>
                 <div className="category-name">Instructor</div>
               </Grid>
-              <Grid item sm={7}>
+              <Grid item xs={7}>
                 <div className="category-info">
                   <div>
-                    <AccountCircleIcon />
-                    Mr. Hung
+                    <img
+                      alt="User avatar"
+                      className="user-avatar"
+                      src="https://img-c.udemycdn.com/user/50x50/6772884_fcfc_2.jpg"
+                    />
+                    Mr. Edwin
                   </div>
-                  <div>Introduction about this dude :)) </div>
+                  <div>Some info about this instructor. </div>
                 </div>
               </Grid>
             </Grid>

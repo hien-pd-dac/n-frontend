@@ -1,5 +1,8 @@
 #video-screen {
-    background-color: #1c1d1f;
-    margin: auto;
-    width: 100%;
+  background-color: #1c1d1f;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
 }

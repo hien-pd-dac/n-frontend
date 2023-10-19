@@ -1,3 +1,26 @@
 #course-info {
+}
 
+.course-info-body-wrapper {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 0px 0px 50px 0px;
+}
+
+.course-info-header-bar {
+  display: flex;
+  margin: 0px 0px 0px 0px;
+  border-bottom: 1px solid #d1d7dc;
+}
+.course-info-header-item {
+  color: #1c1d1f;
+  background-color: white;
+  border: 0px solid black;
+  margin: 0px 0px 0px 20px;
+  padding: 15px 0px 15px 0px;
+
+  text-decoration: none;
+}
+.tab-selected {
+  border-bottom: 2px solid #1c1d1f;
 }

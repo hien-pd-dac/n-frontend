@@ -5,8 +5,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-import InputGroup from "react-bootstrap/InputGroup";
-import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -34,15 +32,14 @@ const MyNavbar = () => {
                 <NavDropdown.Item href="#action/3.2">IELTS</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">OTHERS</NavDropdown.Item>
               </NavDropdown>
-              <InputGroup>
-                <Button variant="outline-dark" className="search-btn">
-                  <FontAwesomeIcon icon={faSearch} />
-                </Button>
-                <FormControl
-                  className="search-input"
-                  placeholder="Search for anything"
-                />
-              </InputGroup>
+              <Button variant="outline-dark" className="search-btn">
+                <FontAwesomeIcon icon={faSearch} />
+              </Button>
+              <input
+                className="search-input"
+                placeholder="Search for anything"
+                type="text"
+              />
             </Nav>
             <Nav>
               <Nav.Link className="my-learning" href="#">

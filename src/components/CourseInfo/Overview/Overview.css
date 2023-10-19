@@ -23,3 +23,9 @@
 .bold-text {
   font-weight: 700;
 }
+
+#overview-tab .course-overview--grid-row img {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}

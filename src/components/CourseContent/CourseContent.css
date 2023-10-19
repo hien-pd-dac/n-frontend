@@ -1,4 +1,9 @@
-/* Styles for section */
+/* General styles */
+.flex-container {
+  display: flex;
+}
+
+/* ---------- Styles for SECTION ----------*/
 #course-content {
   border-width: 0px 0px 0px 2px;
   border-style: outset;
@@ -25,7 +30,7 @@
   padding: 0px;
 }
 
-/* Styles for lesson */
+/* -------- Styles for LESSON --------*/
 
 /* #course-content .lesson { */
 /* margin-left: 10px; */
@@ -35,7 +40,7 @@
 /* } */
 
 #course-content .lesson-header {
-  margin-left: 15px;
+  margin-left: 0px;
 }
 
 #course-content .lesson-title {
@@ -48,7 +53,7 @@
 }
 
 #course-content .lesson-body {
-  padding: 5px 0px 5px 50px;
+  padding: 5px 0px 5px 20px;
   /* border-width: 0px 0px 0px 5px; */
   /* border-style: outset; */
   /* border-color: #90969a; */
@@ -61,4 +66,13 @@
 
 #course-content .resource-info {
   font-size: 12px;
+}
+
+/* ---------- Styles for LESSON-UNIT ----------*/
+#course-content .lesson-unit.flex-container {
+  gap: 10px;
+}
+
+#course-content .lesson-unit {
+  padding: 0px 0px 10px 0px;
 }

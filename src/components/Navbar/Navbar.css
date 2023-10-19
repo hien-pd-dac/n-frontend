@@ -1,30 +1,32 @@
 #my-navbar {
-    border-bottom-width: 2px;
-    border-bottom-style: groove;
-    border-bottom-color: #dee2e6;
+  border-bottom-width: 2px;
+  border-bottom-style: groove;
+  border-bottom-color: #dee2e6;
 }
 #my-navbar .home-icon {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 #my-navbar .search-input {
-    width: 600px;
-    color: #686e75;
-    border-color: #ccd2d8;
-    border-radius: 0px 50px 50px 0px;
+  width: 600px;
+  color: #686e75;
+  border: 1px solid;
+  border-color: #ccd2d8;
+  border-radius: 0px 50px 50px 0px;
+  padding: 0px 0px 0px 20px;
 }
 
 #my-navbar .search-btn {
-    color: #686e75;
-    border-color: #ccd2d8;
-    border-radius: 50px 0px 0px 50px;
+  color: #686e75;
+  border-color: #ccd2d8;
+  border-radius: 50px 0px 0px 50px;
 }
 
 #my-navbar .category {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 #my-navbar .my-learning {
-    margin-right: 20px;
+  margin-right: 20px;
 }

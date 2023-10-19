@@ -43,15 +43,27 @@ const CourseContent = () => {
                           </div>
                         </Accordion.Header>
                         <Accordion.Body className="lesson-body">
-                          <div className="resource-title">Video title</div>
-                          <div className="resource-info">
-                            <FontAwesomeIcon icon={faPlayCircle} /> 5min
+                          <div className="lesson-unit flex-container">
+                            <div className="unit-checkbox">
+                              <input type="checkbox" checked="checked" />
+                            </div>
+                            <div className="unit-main">
+                              <div className="resource-title">Video title</div>
+                              <div className="resource-info">
+                                <FontAwesomeIcon icon={faPlayCircle} /> 5min
+                              </div>
+                            </div>
                           </div>
-                        </Accordion.Body>
-                        <Accordion.Body className="lesson-body">
-                          <div className="resource-title">Quiz</div>
-                          <div className="resource-info">
-                            <FontAwesomeIcon icon={faQuestionCircle} /> 3min
+                          <div className="lesson-unit flex-container">
+                            <div className="unit-checkbox">
+                              <input type="checkbox" checked="checked" />
+                            </div>
+                            <div className="unit-main">
+                              <div className="resource-title">Quiz</div>
+                              <div className="resource-info">
+                                <FontAwesomeIcon icon={faQuestionCircle} /> 3min
+                              </div>
+                            </div>
                           </div>
                         </Accordion.Body>
                       </Accordion.Item>
@@ -68,15 +80,27 @@ const CourseContent = () => {
                           </div>
                         </Accordion.Header>
                         <Accordion.Body className="lesson-body">
-                          <div className="resource-title">Video title</div>
-                          <div className="resource-info">
-                            <FontAwesomeIcon icon={faPlayCircle} /> 5min
+                          <div className="lesson-unit flex-container">
+                            <div className="unit-checkbox">
+                              <input type="checkbox" />
+                            </div>
+                            <div className="unit-main">
+                              <div className="resource-title">Video title</div>
+                              <div className="resource-info">
+                                <FontAwesomeIcon icon={faPlayCircle} /> 5min
+                              </div>
+                            </div>
                           </div>
-                        </Accordion.Body>
-                        <Accordion.Body className="lesson-body">
-                          <div className="resource-title">Quiz</div>
-                          <div className="resource-info">
-                            <FontAwesomeIcon icon={faQuestionCircle} /> 3min
+                          <div className="lesson-unit flex-container">
+                            <div className="unit-checkbox">
+                              <input type="checkbox" />
+                            </div>
+                            <div className="unit-main">
+                              <div className="resource-title">Quiz</div>
+                              <div className="resource-info">
+                                <FontAwesomeIcon icon={faQuestionCircle} /> 3min
+                              </div>
+                            </div>
                           </div>
                         </Accordion.Body>
                       </Accordion.Item>
@@ -88,48 +112,6 @@ const CourseContent = () => {
           </Col>
         </Row>
         {/* end section sample */}
-        <Row>
-          <Col>
-            <Accordion className="section">
-              <Accordion.Item eventKey="0">
-                <Accordion.Header>
-                  <div className="section-header">
-                    <div className="section-title">Section 2: Listening</div>
-                    <div className="section-info">0/1 | 8min</div>
-                  </div>
-                </Accordion.Header>
-                <div className="section-body-div">
-                  <Accordion.Body className="section-body">
-                    <Accordion>
-                      <Accordion.Item eventKey="0" className="lesson">
-                        <Accordion.Header>
-                          <div className="lesson-header">
-                            <div className="lesson-title">
-                              Lesson 3: Lesson title
-                            </div>
-                            <div className="lesson-info">8min</div>
-                          </div>
-                        </Accordion.Header>
-                        <Accordion.Body className="lesson-body">
-                          <div className="resource-title">Video title</div>
-                          <div className="resource-info">
-                            <FontAwesomeIcon icon={faPlayCircle} /> 5min
-                          </div>
-                        </Accordion.Body>
-                        <Accordion.Body className="lesson-body">
-                          <div className="resource-title">Quiz</div>
-                          <div className="resource-info">
-                            <FontAwesomeIcon icon={faQuestionCircle} /> 3min
-                          </div>
-                        </Accordion.Body>
-                      </Accordion.Item>
-                    </Accordion>
-                  </Accordion.Body>
-                </div>
-              </Accordion.Item>
-            </Accordion>
-          </Col>
-        </Row>
       </Container>
     </div>
   );
